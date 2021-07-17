@@ -107,7 +107,7 @@ erreurs, CG, \n pieces NON obligatoires\" ; \
 print \"\n\" ; \
 " | bc
 ```
-bc permet de calculer ; on peut aussi stocker dans des variables, mettre en commentaire ou afficher 
+```
 Remb assurance Bar : 105 €
 CG : 121.76 €
 CT1 en mai : 84 €
@@ -130,6 +130,7 @@ Erreurs (retour cde 2, CT2, tuilage en +, frein fardier) : 150.01 €
    CT/CV + pieces/MO obligatoire + tuilage + transport : 739.06 €
 Nota : sont exclus remb ass barr (geste de ma part), erreurs, CG, 
   pieces NON obligatoires
+```
 # Calcul avec décimales
 Par défaut calcule avec des entiers ; si on veut gérer les nombres décimaux il faut ajouter le paramètre -l (L minuscule)
 ```sh
